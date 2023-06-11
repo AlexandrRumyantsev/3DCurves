@@ -1,0 +1,12 @@
+﻿  Circle.cpp
+  Ellipse.cpp
+  Helix.cpp
+  main.cpp
+  Point.cpp
+  Test.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\rumya\source\repos\3DCurves\3DCurves\Test.cpp(67): warning C4715: Test::generateRandomShape: значение возвращается не при всех путях выполнения
+  All 315 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  3DCurves.vcxproj -> C:\Users\rumya\source\repos\3DCurves\x64\Release\3DCurves.exe
