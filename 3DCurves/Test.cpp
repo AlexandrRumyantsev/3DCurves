@@ -51,7 +51,7 @@ double Test::generateRandomStep() const {
 	return generateRandomNumber(minStep, maxStep);
 }
 
-shared_ptr<Shape> Test::generateRandomShape() const
+std::shared_ptr<Shape> Test::generateRandomShape() const
 {
 	switch (generateRandomNumber(1,3)) {
 	case 1:
@@ -66,15 +66,15 @@ shared_ptr<Shape> Test::generateRandomShape() const
 	}
 }
 
-shared_ptr<Shape> Test::generateRandomEllipse() const {
+std::shared_ptr<Shape> Test::generateRandomEllipse() const {
 	return std::make_shared<Ellipse>(Ellipse(generateRandomRadius(), generateRandomRadius()));
 }
 
-shared_ptr<Shape> Test::generateRandomCircle() const {
+std::shared_ptr<Shape> Test::generateRandomCircle() const {
 	return std::make_shared<Circle>(Circle(generateRandomRadius()));
 }
 
-shared_ptr<Shape> Test::generateRandomHelix() const {
+std::shared_ptr<Shape> Test::generateRandomHelix() const {
 	return std::make_shared<Helix>(Helix(generateRandomRadius(), generateRandomStep()));
 }
 
